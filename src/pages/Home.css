@@ -1118,6 +1118,48 @@
     justify-content: center;
     max-width: 320px;
   }
+
+  .book-3d-wrapper {
+    perspective: 600px;
+  }
+
+  .book-3d {
+    width: 160px;
+    height: 224px;
+  }
+
+  .book-front,
+  .book-back {
+    width: 160px;
+    height: 224px;
+  }
+
+  .book-spine {
+    height: 224px;
+    transform: rotateY(90deg) translateZ(144px);
+  }
+
+  .book-top,
+  .book-bottom {
+    width: 160px;
+  }
+
+  .book-bottom {
+    transform: rotateX(-90deg) translateZ(224px);
+  }
+
+  .book-back,
+  .book-spine,
+  .book-top,
+  .book-bottom,
+  .book-right {
+    visibility: hidden;
+  }
+
+  .book-logo-img {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .video-modal {
