@@ -1148,6 +1148,16 @@
     transform: rotateX(-90deg) translateZ(224px);
   }
 
+  @keyframes bookRotate {
+    0%, 100% { transform: rotateY(-10deg) rotateX(4deg); }
+    50% { transform: rotateY(10deg) rotateX(-2deg); }
+  }
+
+  .book-logo-img {
+    width: 70px;
+    height: 70px;
+  }
+
   .book-back,
   .book-spine,
   .book-top,
